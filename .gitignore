@@ -1,3 +1,6 @@
+node_modules
+image_*
+
 ## Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 *.iml
 
@@ -5,6 +8,3 @@
 **.idea/
 
 **.DS_Store
-
-node_modules
-image_*
