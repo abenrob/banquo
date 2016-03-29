@@ -19,7 +19,7 @@ If you want to install it without adding it to your `package.json`, run the comm
 
 ### Usage
 
-You can set up your own service with banquo by cloning [banquo-server](http://github.com/ajam/banquo-server). 
+You can set up your own service with banquo by cloning [banquo-server](http://github.com/ajam/banquo-server).
 
 *Note: Banquo server uses an older version of Banquo. Pull request welcome.*
 
@@ -80,3 +80,4 @@ css_hide |no| null | *String (CSS selector)* | Any divs you want to hide, such a
 out_file |no| './image_%Y-%m-%d.png' | *String (File path)*| The name and location of the image file you want to save. Defaults to `image_` plus the ISO year, month, day.
 user_agent |no| null | *String* | Set a custom user-agent string.
 scrape |no| false | *Boolean* | If set to true and `mode` is `save` will return the HTML as a string. Does not work if mode is `base64`.
+custom_headers | no | null | *JSON (headers)* | JSON object of any custom headers - i.e. {"Authentication": "Basic MYTOKEN"}

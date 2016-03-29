@@ -1,13 +1,13 @@
 {
-  "name": "banquo",
-  "version": "0.3.2",
+  "name": "banquo-webfonts",
+  "version": "0.3.3",
   "author": "Michael Keller <michael.keller@aljazeera.net> (http://github.com/ajam/banquo)",
   "contributors": [
-    "Michael Keller"
+    "Michael Keller", "Adam Roberts"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajam/banquo.git"
+    "url": "git+https://github.com/abenrob/banquo.git"
   },
   "main": "./src/banquo.js",
   "dependencies": {

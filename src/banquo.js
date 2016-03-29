@@ -58,6 +58,9 @@ function banquo(opts, callback) {
           loadImages: true
         });
     }
+    if (settings.custom_headers){
+        page.customheaders = settings.custom_headers;
+    }
     page.set('viewportSize', {width: settings.viewport_width, height: settings.viewport_height});
     page.open(settings.url, prepForRender);
   }
